@@ -77,7 +77,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Trb-rx-IUv">
-                                <rect key="frame" x="16" y="678" width="178" height="66"/>
+                                <rect key="frame" x="16" y="666" width="178" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5647059083" green="0.81176471709999998" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -88,7 +88,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xEF-Hd-RkF">
-                                <rect key="frame" x="202" y="678" width="175" height="66"/>
+                                <rect key="frame" x="202" y="666" width="175" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5647059083" green="0.81176471709999998" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -99,7 +99,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gej-5H-qBx">
-                                <rect key="frame" x="16" y="752" width="361" height="66"/>
+                                <rect key="frame" x="16" y="752" width="361" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.5647059083" green="0.81176471709999998" blue="0.91372549530000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -114,10 +114,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="changeButton" destination="xEF-Hd-RkF" id="I8q-gO-bzy"/>
                         <outlet property="daregaLabel" destination="cJf-yf-pvC" id="bk1-pe-VTL"/>
                         <outlet property="dokodeLabel" destination="jFO-aT-dLf" id="neZ-SD-Tys"/>
                         <outlet property="doshitaLabel" destination="p4u-0i-bpi" id="QdF-ph-J8k"/>
                         <outlet property="itsuLabel" destination="SFa-z2-ge7" id="l2Q-2Q-ash"/>
+                        <outlet property="randomButton" destination="gej-5H-qBx" id="tGq-N4-49o"/>
+                        <outlet property="resetButton" destination="Trb-rx-IUv" id="IOg-Be-jKY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

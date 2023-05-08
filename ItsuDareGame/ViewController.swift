@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet var daregaLabel: UILabel!
     @IBOutlet var doshitaLabel: UILabel!
     
+    @IBOutlet var changeButton: UIButton!
+    @IBOutlet var resetButton: UIButton!
+    @IBOutlet var randomButton: UIButton!
+    
     let itsuArray: [String] = ["一年前", "一週間前", "昨日", "今日"]
     let dokodeArray: [String] = ["山の上で", "アメリカで", "学校で", "クラスで"]
     let daregaArray: [String] = ["僕が", "大統領が", "先生が", "友達が"]
@@ -24,6 +28,22 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //ボタンの角丸
+        changeButton.layer.cornerRadius = 35
+        resetButton.layer.cornerRadius = 35
+        randomButton.layer.cornerRadius = 35
+        
+        //ラベルの角丸
+        itsuLabel.layer.cornerRadius = 12
+        dokodeLabel.layer.cornerRadius = 12
+        daregaLabel.layer.cornerRadius = 12
+        doshitaLabel.layer.cornerRadius = 12
+        //ラベルの角丸にはこれが必須！！！！
+        itsuLabel.clipsToBounds = true
+        dokodeLabel.clipsToBounds = true
+        daregaLabel.clipsToBounds = true
+        doshitaLabel.clipsToBounds = true
     }
     
     @IBAction func change() {
